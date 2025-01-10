@@ -18,6 +18,7 @@ module Secretariat
   INVOICE_TYPE_CODES = {
     :INVOICE => "380",
     :CORRECTION => "384",
+    :SELFBILLING => "389",
   }
 
   TAX_CATEGORY_CODES = {
