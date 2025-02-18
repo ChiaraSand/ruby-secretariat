@@ -23,6 +23,7 @@ module Secretariat
       )
       line_item = LineItem.new(
         name: 'Depfu Starter Plan',
+        description: 'Depfu Plan for Starters',
         quantity: 1,
         gross_amount: '29',
         net_amount: '29',
@@ -74,6 +75,7 @@ module Secretariat
       )
       line_item = LineItem.new(
         name: 'Depfu Starter Plan',
+        description: 'Depfu Plan for Starters',
         quantity: 1,
         unit: :PIECE,
         gross_amount: '29',
