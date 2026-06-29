@@ -98,7 +98,7 @@ module Secretariat
         if (version == 2)
           xml['ram'].SpecifiedTradeProduct do
             xml['ram'].Name name
-            xml['ram'].Description description if description
+            xml['ram'].Description description if description.present?
             xml['ram'].OriginTradeCountry do
               xml['ram'].ID origin_country_code
             end
